@@ -29,13 +29,13 @@ A Claude Code skill for importing data from external sources into ClickUp as lis
 node clickup-importer/scripts/parse-doc-structure.js path/to/document.md
 ```
 
-### `PLAN.md`
+### `clickup-importer/MIGRATION_PLAN.md`
 
 Step-by-step log of the initial Google Sheet → ClickUp migration for Novanet's video production schedule. Documents the decisions made along the way (flat list → parent/subtask hierarchy, multi-tab handling).
 
 ### `GEMINI.md`
 
-Project context summary used as AI assistant context. References `PLAN.md` for the detailed process.
+Project context summary used as AI assistant context. References `clickup-importer/MIGRATION_PLAN.md` for the detailed process.
 
 ### `tasks_review.md`
 

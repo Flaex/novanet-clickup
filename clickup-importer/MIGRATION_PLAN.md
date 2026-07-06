@@ -29,3 +29,11 @@ The same process was followed to migrate additional tabs from the Google Sheet t
 
 - **Maximiza Tab:** The "Maximiza" tab was migrated to a "Maximiza" list in ClickUp. The `gid` of the tab was used to download the correct data.
 - **Agua Fría Tab:** The "Agua Fría" tab was migrated to an "Agua Fría Coffee" list in ClickUp, again using the tab's `gid` to download the specific data.
+
+## 5. Workspace Dashboard Integration
+
+To collect all current activities and allow users from the workspace to easily track progress, a centralized Dashboard view was planned. Two implementation routes were researched and proposed:
+1. **Implementation Route A (Local Folder View):** Creating a folder called `00. Dashboard` inside the Novanet Space and adding a Dashboard view, pinned as the default tab.
+2. **Implementation Route B (Standalone Hub Dashboard):** Creating a workspace-wide dashboard in ClickUp's global Dashboards Hub and favoriting/pinning it to the sidebar.
+
+The dashboard integrates visual charts for status distributions, project portfolio progress bars, workload allocations, and list blocks of high-priority deliverables. Full details are recorded in `clickup_dashboard_plan.md`.
